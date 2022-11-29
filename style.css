@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(130, 233, 236);
+}
+
+.login-container{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.img-login{
+    width: 500px;
+    background-color: rgb(26, 186, 192);
+    height: 500px;
+    box-shadow: 5px 5px 15px 5px #000000;
+  
+}
+.login-form{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+   
+    
+}
+.log{
+    margin-bottom: 60px;
+    padding-top: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+.input-mail{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    position: relative;
+}
+.input-senha{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    position: relative;
+}
+.input-mail input{
+    width: 250px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(209, 214, 219);
+    outline: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.input-senha input{
+    width: 250px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(209, 214, 219);
+    outline: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.input-senha input:focus{
+    outline: 2px solid rgb(26, 186, 192);
+}
+
+.input-senha label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-mail label{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.input-mail input:focus{
+    outline: 2px solid rgb(26, 186, 192);
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    
+}
+#checkbox{
+    margin-left: 120px;
+    
+}
+.esqueceu{
+    margin-left: 10px;
+    color:rgb(18, 122, 126) ;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.esqueceu:hover{
+    text-decoration: underline;
+}
+.reme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15PX;
+    margin-left: 5px;
+}
+button{
+    width: 250px;
+    padding: 7px;
+    background-color:rgb(18, 122, 126) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 120px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color:rgb(66, 200, 202) ;
+    
+}
+.olho{
+    position: absolute;
+    top: 19px;
+    padding-top: 3px;
+    right: 130px;
+    background-color: rgb(209, 214, 219);
+    bottom: 20px;
+    cursor: pointer;
+    
+    
+    
+}
+.olho2{
+    position: absolute;
+    top: 19px;
+    padding-top: 3px;
+    right: 130px;
+    background-color: rgb(209, 214, 219);
+    bottom: 20px;
+    cursor: pointer;
+   
+}
+.visto{
+    display: none;
+}
